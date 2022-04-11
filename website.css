@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Stylish&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Stylish', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    transition: .5s;
+    font-family:'Poppins', sans-serif;
+}
+:root{
+    --orange: rgb(248, 162, 3);
+    --white: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(241, 240, 240);
+}
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2em;
+}
+.color-txt{
+    color: rgb(252, 184, 59);
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin-right: 1.4em;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul a:hover{
+    color: rgb(252, 184, 59);
+}
+#bars{
+    display: none;
+    font-size: 1.3rem;
+}
+.IMG{
+    width: 600PX;
+    animation: shadow 3s linear infinite;
+}
+
+/* home section */
+.home{
+    display: flex;
+    background-color: orang/e;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.home-img-container{
+    padding-right: 4rem;
+}
+@keyframes shadow{
+    0%{
+        filter: drop-shadow(.5em .5em 1em var(--orange));
+    }
+
+    100%{
+        filter: drop-shadow(.5em .5em 1em var(--white));
+    }
+
+}
+.home-text{
+    font-size: 3.5rem;
+    margin-right: 8rem;
+}
+
+/* home bg section */
+
+.home-bg-container{
+    background-color: aq/ua;
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0, 0, 0, 0.6)),url('cake3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 5rem;
+}
+
+.home-ng-text{
+    padding: 5rem 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* quality section */
+.quality-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5em 0;
+}
+.quality-section-container{
+    width: 50%;
+}
+.quality-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.quality-img{
+    width: 40%;
+}
+.quality-iimg{
+    width: 100%;
+}
+.quality-section .fas{
+    color: rgb(252, 184, 59);
+    font-size: 1.7rem;
+    margin-right:.4em;
+    width: 10%;
+    height: 30px;
+}
+/* item section */
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Stylish', sans-serif;
+}
+.items-img-container{
+    width: 80%;
+    margin: 4rem auto 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.item-img{
+    width: 40%;
+    margin: 1rem;
+}
+.item-img img{
+    width: 70%;
+    object-fit: contain;
+    margin-left: 4rem;
+    filter: drop-shadow(.1em .1em .05em rgb(252, 184, 59));
+}
+/* blog section */
+.home-btn{
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+}
+.home-btn:hover{
+    background-color: white;
+    color: orange;
+}
+.blogs{
+    display: flex;
+    justify-content: space-around;
+    margin: 2.5em 0;
+    flex-wrap: wrap;
+}
+.blog{
+    width: 30%;
+    box-shadow: .05em .05em 1.5em rgb(248, 247, 247);
+    padding: 1em;
+}
+.blog>img{
+    width: 100%;
+    height: 50%;
+}
+.blog>p{
+    margin-bottom: .5em;
+}
+
+/* footer section */
+.footer-container{
+    background-image: linear-gradient(orange, rgba(0,0,0,0.3));
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: .8em;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.footer-fisrt>h1{
+    font-family: 'Stylish', sans-serif;
+}
+.footer-fisrt>.fab{
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+.fab:hover{
+    color: white;
+}
+.footer-second{
+    font-size: .9em;
+}
+.footer-third>h2{
+    font-family: 'Stylish', sans-serif ;
+}
+.footer-third>p{
+    font-weight: 500;
+}
+.footer-fourth>h2{
+    font-family: 'Stylish', sans-serif ;
+    text-align: center;
+}
+.footer-fourth>.fab{
+    font-size: 1.5rem;
+    margin: 1em 0 1em .5em;
+}
+.footer-copywrite{
+    text-align: center;
+    font-family: 'Stylish', sans-serif ;
+    padding: 0;
+}

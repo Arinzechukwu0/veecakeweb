@@ -1,0 +1,96 @@
+@media screen and (max-width:400px){
+    html{
+        font-size: 10px;
+    }
+    .logo{
+        font-size: 1.5em;
+    }
+    .home-text{
+        font-size: 2.5rem;
+        margin: 0 auto 2rem;
+        
+    }
+    .item-img{
+        width: 10%;
+    }
+    .IMG{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #bars{
+        display: block;
+        font-size: 2rem;
+    }
+    nav{
+        background-image: linear-gradient(rgba(255, 166, 0, 0.651), rgba(0, 0, 0, 0.39));
+        width: 60%;
+    }
+    ul{
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+        justify-content: space-around;
+        padding-left: 3em;
+        height: 0vh;
+        opacity: 0;
+    }
+    ul li{
+        margin-bottom: 1.5em;
+    }
+    ul a{
+        color: white;
+        font-size: 1.1rem;
+        border-width: bolder;
+        width: 100%;
+        height: 100%;
+    }
+    .home-ng-text{
+        font-size: 1.8rem;
+    }
+    .quality-iimg{
+        width: 300px;
+    }
+    .quality-img{
+        width: 100%;
+    }
+    .quality-container{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 2rem;
+    }
+    .quality-section-container{
+        width: 100%;
+    }
+    .items-img-container{
+        display: block;
+        justify-content: space-around;
+        align-content: center;
+        
+    }
+    .item-img{
+        width: 100%;
+    }
+    .blogs{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .blog{
+        width: 100%;
+    }
+    .heading{
+        margin-top: 2rem;
+    }
+    .footer{
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        padding: .1rem;
+    }
+    .footer-fisrt,.footer-second,.footer-third,.footer-fourth{
+        width: 100%;
+        padding-bottom: 2rem ;
+    }
+}
